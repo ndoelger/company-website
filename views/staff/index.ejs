@@ -1,0 +1,10 @@
+<%- include('../partials/header') %>
+
+<ul>
+  <% staff.forEach(element => { %>
+  <li>
+    <a href="/staff/<%=element.id%>"><%= element.name %></a>
+  </li>
+  <% }); %>
+</ul>
+<%- include('../partials/footer') %>
