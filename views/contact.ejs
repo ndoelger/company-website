@@ -1,4 +1,9 @@
 <%- include('./partials/header') %>
 
-<h3>contacts hereeeee</h3>
+<ul>
+  <% contacts.forEach(function(c) { %>
+  <li><a href="<%= c.email %>"><%= c.name %></li></a>
+  <% }); %>
+</ul>
+
 <%- include('./partials/footer') %>

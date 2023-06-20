@@ -6,7 +6,7 @@ module.exports = {
 };
 
 function index(req, res) {
-  res.render("work/index", { work: Work.getAll(), title: "work" });
+  res.render("work/index", { work: Work.getAll(), title: "Work" });
 }
 
 function show(req, res) {

@@ -5,12 +5,12 @@ const work = [
     id: 219390,
   },
   {
-    name: "The Sweet Award",
+    name: "Best Ambience",
     date: 1994,
     id: 213954,
   },
   {
-    name: "The Sweet Award",
+    name: "Sweet Skills",
     date: 2005,
     id: 102938,
   },

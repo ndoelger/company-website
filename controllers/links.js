@@ -6,5 +6,5 @@ module.exports = {
 
 function index(req, res) {
   res.render("links/index", { link: Link.getAll(), title: "Links" });
-  console.log(Link.getAll());
+  // console.log(Link.getAll());
 }
